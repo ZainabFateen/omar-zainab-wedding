@@ -14,7 +14,7 @@ A mobile-first wedding invitation built with plain HTML, CSS and vanilla JavaScr
 - Fonts: Cinzel, Cormorant Garamond, Pinyon Script
 
 ## Before publishing
-1. Replace the RSVP `(https://zainabomar.github.io/wedding-rsvp/)` in `index.html` with your RSVP form/link.
+1. Replace the RSVP `(https://zainabomar.github.io/wedding-rsvp/)` in `(https://zainabomar.github.io/wedding-rsvp/)` with your RSVP form/link.
 2. Add your own legally obtained copy of `Turning Page` as `music.mp3` in this folder if you have permission to use it.
 3. Optionally add venue name/address and photos.
 4. Upload the folder to a GitHub repository and enable GitHub Pages.
