@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#151313">
+<title>Omar & Zainab — 15 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow">THE WEDDING OF</div>
+    <h1>Omar <span>&amp;</span> Zainab</h1>
+    <div class="ornament">✦</div>
+    <p class="date">15 · 11 · 2026</p>
+    <p class="invite">Together with their families,<br>they invite you to celebrate their wedding.</p>
+    <button class="enter" id="enterBtn">OPEN INVITATION</button>
+  </section>
+
+  <section class="details reveal">
+    <p class="script">A night to remember</p>
+    <h2>Save the Date</h2>
+    <div class="rule"></div>
+    <p class="bigdate">Sunday, 15 November 2026</p>
+    <p class="time">7:00 PM</p>
+
+    <div class="countdown" id="countdown">
+      <div><strong id="days">—</strong><span>DAYS</span></div>
+      <div><strong id="hours">—</strong><span>HOURS</span></div>
+      <div><strong id="minutes">—</strong><span>MINUTES</span></div>
+      <div><strong id="seconds">—</strong><span>SECONDS</span></div>
+    </div>
+  </section>
+
+  <section class="dress reveal">
+    <p class="eyebrow">DRESS CODE</p>
+    <h2>Black Tie</h2>
+    <p>Dress to celebrate. Elegant evening attire is requested.</p>
+    <div class="palette">
+      <span class="swatch champagne" title="Champagne"></span>
+      <span class="swatch rose" title="Dusty Rose"></span>
+      <span class="swatch burgundy" title="Burgundy"></span>
+      <span class="swatch midnight" title="Midnight"></span>
+      <span class="swatch ivory" title="Ivory"></span>
+    </div>
+    <small>Champagne · Rose Gold · Burgundy · Midnight · Ivory</small>
+  </section>
+
+  <section class="venue reveal">
+    <p class="eyebrow">THE CELEBRATION</p>
+    <h2>Join Us</h2>
+    <p>7:00 PM</p>
+    <a class="button" href="https://maps.app.goo.gl/4c6XhGsuY4sN7ZJd8?g_st=ic" target="_blank" rel="noopener">GET DIRECTIONS</a>
+  </section>
+
+  <section class="rsvp reveal">
+    <p class="eyebrow">KINDLY RESPOND</p>
+    <h2>RSVP</h2>
+    <p>Please confirm your attendance so we can celebrate this evening with you.</p>
+    <!-- Replace the href below with your actual RSVP form/link. -->
+    <a class="button gold" id="rsvpBtn" href="#" onclick="return false;">RSVP</a>
+    <p class="hint">Your RSVP link can be added here.</p>
+  </section>
+
+  <footer>
+    <p class="script">With love,</p>
+    <p>Omar &amp; Zainab</p>
+    <small>15 · 11 · 2026</small>
+  </footer>
+</main>
+
+<div class="music-control" id="musicControl" title="Play music" aria-label="Play music">♪</div>
+<audio id="music" loop preload="none">
+  <!-- Add your legally obtained copy of "Turning Page" as music.mp3 in this folder. -->
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
